@@ -1,17 +1,14 @@
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
@@ -48,8 +45,13 @@ a {
   text-decoration: none;
   color: #B02E0C;
 }
-a:hover {
+#intro a:hover {
+  color: white;
   background-color: #01161E;
+  transition: 0.6s;
+}
+a:hover {
+  color: #01161E;
   transition: 0.6s;
 }
 .card-white {
@@ -91,4 +93,8 @@ a:hover {
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+
+i {
+  font-size: 30px;
 }
